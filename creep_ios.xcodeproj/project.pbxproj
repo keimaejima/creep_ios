@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5175F1AC5CADC14EDD7EF26B /* Pods_creep_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0263726E689B3242EB5D1069 /* Pods_creep_ios.framework */; };
+		AA2EB4551E33312F0085F69E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2EB4531E3331070085F69E /* Social.framework */; };
+		AA2EB4561E33312F0085F69E /* Social.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA2EB4531E3331070085F69E /* Social.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA7A11B51E348D4800D218B1 /* EmailLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A11B41E348D4800D218B1 /* EmailLoginVC.swift */; };
+		AA7A11B81E34904100D218B1 /* EmailLoginCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A11B71E34904100D218B1 /* EmailLoginCO.swift */; };
+		AA7A11BA1E34F1C200D218B1 /* MakeUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A11B91E34F1C200D218B1 /* MakeUserVC.swift */; };
+		AA7A11BC1E34F21400D218B1 /* MakeUserCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A11BB1E34F21400D218B1 /* MakeUserCO.swift */; };
+		AA7A11C11E34F38C00D218B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7A11C01E34F38C00D218B1 /* Alamofire.framework */; };
 		AA9679611E32FCD5005E9C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9679601E32FCD5005E9C6D /* AppDelegate.swift */; };
 		AA9679631E32FCD5005E9C6D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9679621E32FCD5005E9C6D /* FirstViewController.swift */; };
 		AA9679651E32FCD5005E9C6D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9679641E32FCD5005E9C6D /* SecondViewController.swift */; };
@@ -15,6 +23,8 @@
 		AA96796D1E32FCD5005E9C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA96796B1E32FCD5005E9C6D /* LaunchScreen.storyboard */; };
 		AA9679781E32FCD5005E9C6D /* creep_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9679771E32FCD5005E9C6D /* creep_iosTests.swift */; };
 		AA9679831E32FCD5005E9C6D /* creep_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9679821E32FCD5005E9C6D /* creep_iosUITests.swift */; };
+		B00DE6067AF19AE8D011EEEE /* Pods_creep_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9E520C4B35AB2FF210E9C7 /* Pods_creep_iosTests.framework */; };
+		EB26E2A4E4FDCFB60767A78F /* Pods_creep_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB42324EEE82C383475C352F /* Pods_creep_iosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +44,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AA2EB4571E33312F0085F69E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA2EB4561E33312F0085F69E /* Social.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0263726E689B3242EB5D1069 /* Pods_creep_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_creep_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF20D4C5B34E41332F45764 /* Pods-creep_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-creep_ios/Pods-creep_ios.release.xcconfig"; sourceTree = "<group>"; };
+		6B9E520C4B35AB2FF210E9C7 /* Pods_creep_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_creep_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CE016FBF8139303182BA9A /* Pods-creep_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-creep_iosUITests/Pods-creep_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84A7C9237B86E783DFE5415B /* Pods-creep_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-creep_iosTests/Pods-creep_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		922B89E3BD28A218F14EA4A4 /* Pods-creep_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-creep_iosUITests/Pods-creep_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2EB4531E3331070085F69E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		AA7A11B41E348D4800D218B1 /* EmailLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginVC.swift; sourceTree = "<group>"; };
+		AA7A11B71E34904100D218B1 /* EmailLoginCO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginCO.swift; sourceTree = "<group>"; };
+		AA7A11B91E34F1C200D218B1 /* MakeUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeUserVC.swift; sourceTree = "<group>"; };
+		AA7A11BB1E34F21400D218B1 /* MakeUserCO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeUserCO.swift; sourceTree = "<group>"; };
+		AA7A11C01E34F38C00D218B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/creep_ios-fmkgewqzfofftbblvluzxjagncqa/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		AA96795D1E32FCD5005E9C6D /* creep_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creep_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9679601E32FCD5005E9C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9679621E32FCD5005E9C6D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +85,9 @@
 		AA96797E1E32FCD5005E9C6D /* creep_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = creep_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9679821E32FCD5005E9C6D /* creep_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creep_iosUITests.swift; sourceTree = "<group>"; };
 		AA9679841E32FCD5005E9C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6228D46B00A5D5203EA66F /* Pods-creep_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-creep_ios/Pods-creep_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F75398FEFFC0A41CFC588B /* Pods-creep_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creep_iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-creep_iosTests/Pods-creep_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB42324EEE82C383475C352F /* Pods_creep_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_creep_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7A11C11E34F38C00D218B1 /* Alamofire.framework in Frameworks */,
+				5175F1AC5CADC14EDD7EF26B /* Pods_creep_ios.framework in Frameworks */,
+				AA2EB4551E33312F0085F69E /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00DE6067AF19AE8D011EEEE /* Pods_creep_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB26E2A4E4FDCFB60767A78F /* Pods_creep_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63AF067178C480C76036CEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A11C01E34F38C00D218B1 /* Alamofire.framework */,
+				AA2EB4531E3331070085F69E /* Social.framework */,
+				0263726E689B3242EB5D1069 /* Pods_creep_ios.framework */,
+				6B9E520C4B35AB2FF210E9C7 /* Pods_creep_iosTests.framework */,
+				EB42324EEE82C383475C352F /* Pods_creep_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA7A11AF1E348B0B00D218B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A11B71E34904100D218B1 /* EmailLoginCO.swift */,
+				AA7A11BB1E34F21400D218B1 /* MakeUserCO.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA7A11B01E348B1300D218B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA7A11B11E348B1C00D218B1 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
 		AA9679541E32FCD5005E9C6D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +162,8 @@
 				AA9679761E32FCD5005E9C6D /* creep_iosTests */,
 				AA9679811E32FCD5005E9C6D /* creep_iosUITests */,
 				AA96795E1E32FCD5005E9C6D /* Products */,
+				E7EB31711B0A8928E4523671 /* Pods */,
+				63AF067178C480C76036CEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +180,11 @@
 		AA96795F1E32FCD5005E9C6D /* creep_ios */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A11B11E348B1C00D218B1 /* DTO */,
+				AA7A11B01E348B1300D218B1 /* Model */,
+				AA7A11AF1E348B0B00D218B1 /* Controller */,
+				AA9679901E32FD18005E9C6D /* View */,
 				AA9679601E32FCD5005E9C6D /* AppDelegate.swift */,
-				AA9679621E32FCD5005E9C6D /* FirstViewController.swift */,
-				AA9679641E32FCD5005E9C6D /* SecondViewController.swift */,
 				AA9679661E32FCD5005E9C6D /* Main.storyboard */,
 				AA9679691E32FCD5005E9C6D /* Assets.xcassets */,
 				AA96796B1E32FCD5005E9C6D /* LaunchScreen.storyboard */,
@@ -128,6 +211,30 @@
 			path = creep_iosUITests;
 			sourceTree = "<group>";
 		};
+		AA9679901E32FD18005E9C6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA9679641E32FCD5005E9C6D /* SecondViewController.swift */,
+				AA9679621E32FCD5005E9C6D /* FirstViewController.swift */,
+				AA7A11B41E348D4800D218B1 /* EmailLoginVC.swift */,
+				AA7A11B91E34F1C200D218B1 /* MakeUserVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E7EB31711B0A8928E4523671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE6228D46B00A5D5203EA66F /* Pods-creep_ios.debug.xcconfig */,
+				0DF20D4C5B34E41332F45764 /* Pods-creep_ios.release.xcconfig */,
+				84A7C9237B86E783DFE5415B /* Pods-creep_iosTests.debug.xcconfig */,
+				C0F75398FEFFC0A41CFC588B /* Pods-creep_iosTests.release.xcconfig */,
+				922B89E3BD28A218F14EA4A4 /* Pods-creep_iosUITests.debug.xcconfig */,
+				70CE016FBF8139303182BA9A /* Pods-creep_iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +242,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA9679871E32FCD5005E9C6D /* Build configuration list for PBXNativeTarget "creep_ios" */;
 			buildPhases = (
+				CF2AD33C9B9C6A223C3DC0DB /* [CP] Check Pods Manifest.lock */,
 				AA9679591E32FCD5005E9C6D /* Sources */,
 				AA96795A1E32FCD5005E9C6D /* Frameworks */,
 				AA96795B1E32FCD5005E9C6D /* Resources */,
+				F84519AEB29D012181A2DF7E /* [CP] Embed Pods Frameworks */,
+				5D8BCF64884CBDE4CFA13AA7 /* [CP] Copy Pods Resources */,
+				AA2EB4571E33312F0085F69E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA96798A1E32FCD5005E9C6D /* Build configuration list for PBXNativeTarget "creep_iosTests" */;
 			buildPhases = (
+				08E1657C137FE84DB7471AAA /* [CP] Check Pods Manifest.lock */,
 				AA96796F1E32FCD5005E9C6D /* Sources */,
 				AA9679701E32FCD5005E9C6D /* Frameworks */,
 				AA9679711E32FCD5005E9C6D /* Resources */,
+				08A66C1338A0F4E814F98382 /* [CP] Embed Pods Frameworks */,
+				5C165BFCDAE78BB72EEF2038 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA96798D1E32FCD5005E9C6D /* Build configuration list for PBXNativeTarget "creep_iosUITests" */;
 			buildPhases = (
+				9DD151AF3DF47BDBC7295C0E /* [CP] Check Pods Manifest.lock */,
 				AA96797A1E32FCD5005E9C6D /* Sources */,
 				AA96797B1E32FCD5005E9C6D /* Frameworks */,
 				AA96797C1E32FCD5005E9C6D /* Resources */,
+				87CC713A300C26CF71BA524B /* [CP] Embed Pods Frameworks */,
+				B2A6022EF62FAF9E3635EFEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +374,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A66C1338A0F4E814F98382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_iosTests/Pods-creep_iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08E1657C137FE84DB7471AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C165BFCDAE78BB72EEF2038 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_iosTests/Pods-creep_iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D8BCF64884CBDE4CFA13AA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_ios/Pods-creep_ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CC713A300C26CF71BA524B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_iosUITests/Pods-creep_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD151AF3DF47BDBC7295C0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A6022EF62FAF9E3635EFEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_iosUITests/Pods-creep_iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2AD33C9B9C6A223C3DC0DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F84519AEB29D012181A2DF7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creep_ios/Pods-creep_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA9679591E32FCD5005E9C6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA9679651E32FCD5005E9C6D /* SecondViewController.swift in Sources */,
+				AA7A11BA1E34F1C200D218B1 /* MakeUserVC.swift in Sources */,
+				AA7A11B81E34904100D218B1 /* EmailLoginCO.swift in Sources */,
 				AA9679611E32FCD5005E9C6D /* AppDelegate.swift in Sources */,
 				AA9679631E32FCD5005E9C6D /* FirstViewController.swift in Sources */,
+				AA7A11B51E348D4800D218B1 /* EmailLoginVC.swift in Sources */,
+				AA7A11BC1E34F21400D218B1 /* MakeUserCO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +671,11 @@
 		};
 		AA9679881E32FCD5005E9C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6228D46B00A5D5203EA66F /* Pods-creep_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = creep_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "keimaejima.creep-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +685,11 @@
 		};
 		AA9679891E32FCD5005E9C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF20D4C5B34E41332F45764 /* Pods-creep_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = creep_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "keimaejima.creep-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +699,7 @@
 		};
 		AA96798B1E32FCD5005E9C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A7C9237B86E783DFE5415B /* Pods-creep_iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +714,7 @@
 		};
 		AA96798C1E32FCD5005E9C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F75398FEFFC0A41CFC588B /* Pods-creep_iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +729,7 @@
 		};
 		AA96798E1E32FCD5005E9C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922B89E3BD28A218F14EA4A4 /* Pods-creep_iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = creep_iosUITests/Info.plist;
@@ -477,6 +743,7 @@
 		};
 		AA96798F1E32FCD5005E9C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CE016FBF8139303182BA9A /* Pods-creep_iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = creep_iosUITests/Info.plist;
@@ -507,6 +774,7 @@
 				AA9679891E32FCD5005E9C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA96798A1E32FCD5005E9C6D /* Build configuration list for PBXNativeTarget "creep_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +783,7 @@
 				AA96798C1E32FCD5005E9C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA96798D1E32FCD5005E9C6D /* Build configuration list for PBXNativeTarget "creep_iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +792,7 @@
 				AA96798F1E32FCD5005E9C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
